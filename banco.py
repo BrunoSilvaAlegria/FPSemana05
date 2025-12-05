@@ -12,7 +12,7 @@ class ContaBancaria:
         else: print(0)
 
     def levantar(self, valor):
-        if valor < 0:
+        if valor <= 0:
             print(0)
         else:    
             if valor <= self.saldo:
